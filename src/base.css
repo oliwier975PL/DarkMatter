@@ -4,24 +4,11 @@
  * The codebase was never designed to be pretty, it was designed to require as little maintenance as possible.
  */
 
-@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;500;600;700&display=swap');
-@import url('https://mwittrien.github.io/BetterDiscordAddons/Themes/BlurpleRecolor/BlurpleRecolor.css');
-@import url('https://discord-custom-covers.github.io/usrbg/dist/usrbg.css');
-
-
 /* Root Variables */
 
  :root {
 	--black: 0, 0, 0;
 	--white: 255, 255, 255;
-}
-
-.theme-dark,
-.theme-light {
-	/* Discord vars */
-	--background-modifier-hover: rgba(var(--black), 0.3);
-	--background-modifier-active: rgba(var(--black), 0.3);
-	--text-muted: #8a8e94;
 }
 
 /* Titlebar */
@@ -39,20 +26,4 @@ div[class*="typeWindows-"]>div:first-child {
 div[class*="typeWindows-"]>div[role="button"] {
 	height: 30px;
 	width: 36px;
-}
-
-div[class*="typeWindows-"]::after {
-	content: 'Discord';
-	font-weight: 5000;
-	line-height: 31px;
-	color: var(--text-muted);
-	font-size: 14px;
-	position: absolute;
-	padding: 0 12px;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 30px;
-	background: rgba(var(--black), 0.85);
-	z-index: -1;
 }
