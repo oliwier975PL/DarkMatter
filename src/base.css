@@ -31,7 +31,7 @@ div[class*="typeWindows-"]>div[role="button"] {
 div[class*="typeWindows-"]::after {
 	content: 'Discord';
 	font-weight: 900;
-	line-height: 31px;
+	line-height: 32px;
 	color: #8a8e94;
 	font-size: 14px;
 	position: absolute;
