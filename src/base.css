@@ -16,7 +16,7 @@
 div[class*="typeWindows-"] {
 	--background-modifier-hover: rgba(var(--white), 0.05);
 	--background-modifier-active: rgba(var(--white), 0.075);
-	height: 26px;
+	height: 28px;
 }
 
 div[class*="typeWindows-"]>div:first-child {
@@ -24,8 +24,8 @@ div[class*="typeWindows-"]>div:first-child {
 }
 
 div[class*="typeWindows-"]>div[role="button"] {
-	height: 30px;
-	width: 36px;
+	height: 32px;
+	width: 46px;
 }
 
 div[class*="typeWindows-"]::after {
